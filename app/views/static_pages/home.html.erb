@@ -1,7 +1,17 @@
-<h1>Sample App</h1>
+<div class="p-5 mb-4 bg-light rounded-3 text-center">
+  <div class="container-fluid py-4">
+    <h1>Bienvenido a nuestra aplicación</h1>
 
-<p>
-  This is the home page for the
-  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+    <h2>
+      Esta es la página principal de nuestro proyecto
+      desarrollado con Ruby on Rails.
+    </h2>
+
+    <%= image_tag "rails.svg", width: 150, alt: "Logotipo de Ruby on Rails" %>
+
+    <div class="mt-4">
+      <%= link_to "Visitar Google", "https://www.google.com",
+          class: "btn btn-lg btn-primary" %>
+    </div>
+  </div>
+</div>
